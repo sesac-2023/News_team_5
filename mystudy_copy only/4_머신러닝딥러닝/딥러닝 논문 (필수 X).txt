@@ -1,0 +1,49 @@
+
+CNN
+VGGNet - https://arxiv.org/pdf/1409.1556.pdf
+모델을 복잡하게 구성해나갔던 이전과 달리 구조를 심플하게 가져가면서도 그 당시 성능으로 2등을 함.
+ResNet - https://arxiv.org/pdf/1512.03385.pdf
+VGGNet에서 구조를 간단하게 가져가면서 모델을 deep하게 쌓으려는 시도를 하였지만, 한계를 보였음.
+그 상황에서 Residual(잔차)을 연결하는 Skip Connection 방법을 통해 모델을 깊게 쌓아도 학습이 될 수 있도록 함.
+
+
+RNN
+LSTM - https://www.bioinf.jku.at/publications/older/2604.pdf
+기존의 RNN에 장기 기억을 위한 노드를 추가하여 기존 RNN의 Degradation(기울기 소실문제)를 해결하고자 한 모델
+GRU - https://arxiv.org/pdf/1412.3555.pdf
+LSTM을 바탕으로 연구되고 있는 모델 게이트라는 개념을 사용
+
+
+Auto Encoder - https://arxiv.org/pdf/2003.05991.pdf
+Encoder - decoder 구조로 원본 데이터와 유사한 데이터를 만들어내는게 목적인 모델
+
+GAN - https://arxiv.org/pdf/1406.2661.pdf
+생산적 적대 신경망이라는 명칭 그대로 어떤 fake 데이터를 생성하고 그것이 real인지 fake인지 판별하는 식으로 학습하는 경쟁형 신경망
+DCGAN - https://arxiv.org/pdf/1511.06434.pdf
+기존의 GAN 모델이 단순한 다층퍼셉트론 구조로 되어있었다면, 여기에 Deep CNN 네트워크를 추가한 모델
+
+
+Object Detection
+RCNN - https://arxiv.org/pdf/1311.2524.pdf
+객체 인식을 위해 물체가 있을 법한 위치를 선정한 뒤 CNN을 수행하여 Classification하는 모델 
+YoLo - https://arxiv.org/pdf/1506.02640.pdf
+Bounding box에 regression을 통해서 bounding box의 좌표와 각 클래스의 확률을 구함. End-to-End형 모델
+
+
+NLP
+Seq2Seq - https://arxiv.org/pdf/1409.3215.pdf
+RNN 모델을 활용한 번역 위주의 모델
+Seq2Seq with Attention - https://arxiv.org/pdf/1409.0473.pdf
+Attention 메커니즘을 활용해 현재 단어가 어떤 문맥정보에 집중해야 하는지를 연구한 모델
+
+Elmo - https://arxiv.org/pdf/1802.05365.pdf
+기존의 단어에 집중했던 임베딩 방식에서 벗어나 문장 자체를 임베딩하여 이해하고자 했던 모델
+
+Transformer (Attention is All you need) - https://arxiv.org/pdf/1706.03762.pdf
+기존의 언어 모델은 RNN 네트워크를 사용해서 학습속도가 느렸는데, 다양한 방법을 활용하여 학습속도를 빠르게 한, 
+최신 연구되는 BERT, GPT 모델의 기본 네트워크로 사용되는 모델
+
+BERT - https://arxiv.org/pdf/1810.04805.pdf
+대량의 데이터를 활용해 문장 내의 토큰을 예측하는 방식으로 주요 태스크에 적용하기 전에 1차적으로 문장을 이해하도록 한 모델
+ELECTRA - https://arxiv.org/pdf/2003.10555.pdf
+BERT 모델의 토큰 예측 방식을 개선한 모델
