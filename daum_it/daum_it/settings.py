@@ -12,13 +12,15 @@ BOT_NAME = "daum_it"
 SPIDER_MODULES = ["daum_it.spiders"]
 NEWSPIDER_MODULE = "daum_it.spiders"
 
+LOG_FILE = 'daum_it.log'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "daum_it (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
-
+ROBOTSTXT_OBEY = False
+FEED_EXPORT_ENCODING = "utf-8-sig"
+FEED_EXPORT_FILTERS = ['Title','Date','Media','Content_URL','Contents','Pressname','Category']
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
@@ -90,4 +92,4 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
-FEED_EXPORT_ENCODING = "utf-8"
+

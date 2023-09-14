@@ -1,0 +1,140 @@
+2023-09-14 10:16:51 [scrapy.utils.log] INFO: Scrapy 2.8.0 started (bot: daum_it)
+2023-09-14 10:16:51 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.10.9 (main, Mar  1 2023, 18:23:06) [GCC 11.2.0], pyOpenSSL 23.0.0 (OpenSSL 1.1.1t  7 Feb 2023), cryptography 39.0.1, Platform Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.31
+2023-09-14 10:16:51 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'daum_it',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'daum_it.log',
+ 'NEWSPIDER_MODULE': 'daum_it.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['daum_it.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-09-14 10:16:51 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:16:51 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-09-14 10:16:51 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2023-09-14 10:16:51 [scrapy.extensions.telnet] INFO: Telnet Password: 75486ed3ee65aafa
+2023-09-14 10:16:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2023-09-14 10:16:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-09-14 10:16:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-09-14 10:16:51 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-09-14 10:16:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-09-14 10:16:53 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:16:53 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:19:36 [scrapy.utils.log] INFO: Scrapy 2.8.0 started (bot: daum_it)
+2023-09-14 10:19:36 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.10.9 (main, Mar  1 2023, 18:23:06) [GCC 11.2.0], pyOpenSSL 23.0.0 (OpenSSL 1.1.1t  7 Feb 2023), cryptography 39.0.1, Platform Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.31
+2023-09-14 10:19:36 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'daum_it',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'daum_it.log',
+ 'NEWSPIDER_MODULE': 'daum_it.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['daum_it.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-09-14 10:19:36 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:19:36 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-09-14 10:19:36 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2023-09-14 10:19:36 [scrapy.extensions.telnet] INFO: Telnet Password: 7743315829aca75f
+2023-09-14 10:19:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2023-09-14 10:19:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-09-14 10:19:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-09-14 10:19:36 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-09-14 10:19:36 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-09-14 10:19:36 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:19:36 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:19:50 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 10:19:50 [scrapy.core.engine] INFO: Spider opened
+2023-09-14 10:19:50 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (308) to <GET https://news.daum.net//breakingnews/digital?regDate=20230904> from <GET http://news.daum.net//breakingnews/digital?regDate=20230904>
+2023-09-14 10:19:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://news.daum.net//breakingnews/digital?regDate=20230904> (referer: None)
+2023-09-14 11:47:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.daum.net/v/20230904223615017> (referer: None)
+2023-09-14 13:50:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.daum.net/v/20230914133335215> (referer: None)
+2023-09-14 13:51:02 [scrapy.utils.log] INFO: Scrapy 2.8.0 started (bot: daum_it)
+2023-09-14 13:51:02 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.10.9 (main, Mar  1 2023, 18:23:06) [GCC 11.2.0], pyOpenSSL 23.0.0 (OpenSSL 1.1.1t  7 Feb 2023), cryptography 39.0.1, Platform Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.31
+2023-09-14 13:51:02 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'daum_it',
+ 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOGSTATS_INTERVAL': 0,
+ 'LOG_FILE': 'daum_it.log',
+ 'NEWSPIDER_MODULE': 'daum_it.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['daum_it.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-09-14 13:51:02 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 13:51:02 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-09-14 13:51:02 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2023-09-14 13:51:03 [scrapy.extensions.telnet] INFO: Telnet Password: 8290ac41e32c4418
+2023-09-14 13:51:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2023-09-14 13:51:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-09-14 13:51:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-09-14 13:51:03 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-09-14 13:51:03 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-09-14 13:51:03 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 13:51:03 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 13:51:15 [asyncio] DEBUG: Using selector: EpollSelector
+2023-09-14 13:51:15 [scrapy.core.engine] INFO: Spider opened
+2023-09-14 13:51:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.daum.net/v/20230914133335215> (referer: None)
+2023-09-14 14:47:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://v.daum.net/v/20230912073007804> (referer: None)
+2023-09-14 19:09:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://news.daum.net/breakingnews/digital/science?page=2&regDate=20230912> (referer: None)
