@@ -1,4 +1,4 @@
-# News_TEAM6
+# News_TEAM5
 
 ## 컨벤션
 ### Code Convention
