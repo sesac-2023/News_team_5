@@ -1,4 +1,4 @@
-# News_TEAM6
+# News_TEAM5
 
 ## 컨벤션
 ### Code Convention
@@ -49,7 +49,7 @@ footer: 선택사항. issue tracker id를 작성할때 사용.
 https://jjam89.tistory.com/284  
 https://devsosin.notion.site/1a4f6e2b5d0c44719acdacae79028244
 
-네이버 뉴스 추천 시스템
+네이버 뉴스 추천 시스템 단계
 
 데이터 수집: 
 
