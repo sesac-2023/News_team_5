@@ -122,7 +122,7 @@ preprocess_commentdata(comments_datagroupby_userid)
 # 예시 실행 코드
  
 url_recommendations =
-recommend('example.com',cosine_similarity_grouped)
+recommend('news.naver.com',cosine_similarity_grouped)
 
 
 user_recommendations =
